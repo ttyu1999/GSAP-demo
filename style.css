@@ -816,6 +816,7 @@ inset: 1vw;
 
 .service .item div {
     display: grid;
+    justify-items: center;
     gap: 1rem;
     padding: 1.5rem;
     margin-inline: .75rem;
@@ -825,7 +826,7 @@ inset: 1vw;
 }
 
 .service .item div span {
-    width: 100%;
+    width: 15rem;
     aspect-ratio: 259 / 83;
     background: url('asset/style/scene2/box-texture.svg') no-repeat center / contain;
 }
